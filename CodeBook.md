@@ -1,6 +1,6 @@
 Introduction
 =============
-This is the Code Book for the finalData tidy data set. It is meant to provide information regarding the original dataset, a brief explanation of why certain variables where chosen, as well as how the rows were derived. Also, I have included additional information about the variables in the data set, which is not contained in finalData.csv. Please note that this code book is in no way perfect, and if you feel as though you can contribute, in anyway, to its progress I encourage you to contact me via email; you will find my email address at the end of the README.md file included in this repository, thank you.
+This is the Code Book for the finalData tidy data set. It is meant to provide information regarding the original dataset, a brief explanation of why certain variables were chosen, as well as how the rows were derived. Also, I have included additional information about the variables in the data set, which is not contained in finalData.csv. Please note that this code book is in no way perfect, and if you feel as though you can contribute, in anyway, to its progress I encourage you to contact me via email; you will find my email address at the end of the README.md file included in this repository, thank you.
 
 
 
