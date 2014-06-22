@@ -73,12 +73,12 @@ The following is a list of the variables contained in the tidy data set, in the 
 
 1. ###Activity_ID 
     A number that corresponds to the activity performed by the subject
-    1. - WALKING
-    2. - WALKING_UPSTAIRS
-    3. - WALKING_DOWNSTAIRS
-    4. - SITTING
-    5. - STANDING
-    6. - LAYING
+    * 1 - WALKING
+    * 2 - WALKING_UPSTAIRS
+    * 3 - WALKING_DOWNSTAIRS
+    * 4 - SITTING
+    * 5 - STANDING
+    * 6 - LAYING
  
 
 2. ###Activity
