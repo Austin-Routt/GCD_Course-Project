@@ -42,7 +42,7 @@ After that, an "Activity" column is added to testData by merging **activity_labe
 
 ###Merges the training and the test sets to create one data set 
 
-Next, the rows of testData and trainData ,containg descriptive activity names and only measurements that correspond to mean and std values, are combined into one complete data set, using **rbind**; the resulting dataframe is called completeData.
+Next, the rows of testData and trainData ,containing descriptive activity names and only measurements that correspond to mean and std values, are combined into one complete data set, using **rbind**; the resulting dataframe is called completeData.
 
 
 ###Appropriately labels the data set with descriptive variable names
