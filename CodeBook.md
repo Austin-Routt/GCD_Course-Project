@@ -34,7 +34,7 @@ Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012
 
 The Tidy Dataset
 =============
- With this data set you will find 3 identifer variables and 86 numerical average variables calculated from numerous observations of a particular subject (1 of 30) performing a particular activity(1 of 6). Therefore, this data set contains 89 variables and 180 rows; **30**(Subjects) **X** **6**(Activities) **=** **180** rows
+ Within the derived tidy data set, found in **finalData.csv**, you will find 3 identifier variables and 86 numerical  variables, which are averages calculated from numerous observations of a particular subject (1 of 30) performing a particular activity(1 of 6). Therefore, this data set contains 89 variables and 180 rows; **30**(Subjects) **X** **6**(Activities) **=** **180** rows
  
 Although the assignment asks for averages of variables involving mean or standard deviation, angle averages and mean frequency averages were includedas well, by virtue of involving mean value; this aspiring data scientist wished to err on the side of caution. Note that any undesired variables can easily be removed via the R programming language's subsetting abilities. For example, if one wishes to remove all values of average angles simply take the following subset: finalData[,1:82].
 
