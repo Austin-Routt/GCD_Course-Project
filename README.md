@@ -1,6 +1,6 @@
 Introduction
 =============
-This repository exists to fufill the requirements set by the **Getting and Cleaning Data** Course Project, hosted by JHU, on Coursera, circa summer of 2014. For this project, students are tasked with using  accelerometer data, from the Samsung Galaxy S smartphone, in the form of several text files, to create a tidy dataset that contains the average values for all mean and standard deviation measurements with respect to each subject performing a specific activity. A full description of the original dataset can be found at:
+This repository exists to fufill the requirements set by the **Getting and Cleaning Data** Course Project, hosted by JHU, on Coursera, circa summer of 2014. For this project, students are tasked with using  accelerometer data, from the Samsung Galaxy S II smartphone, in the form of several text files, to create a tidy dataset that contains the average values for all mean and standard deviation measurements with respect to each subject performing a specific activity. A full description of the original dataset can be found at:
 
 <http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>
 
