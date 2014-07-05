@@ -14,9 +14,9 @@ The UCI HAR Dataset was created using the embedded accelerometer and gyroscope i
 
 According to the  UCI HAR Dataset README.txt:
 
->>Sensor signals were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.[...]Features are normalized and bounded within [-1,1]
+>>Sensor signals were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
-After obtaining the complete dataset,including calculated values like  the mean and standard deviations of the raw measurements, subjects were randomly partitioned into two groups, where 70% comprised the training data and 30% where put into test data. 
+After obtaining the complete dataset,including calculated values like  the mean and standard deviations of the raw measurements, subjects were randomly partitioned into two groups, where 70% comprised the training data and 30% where put into test data. Note that features were normalized and bounded within [-1,1]; this is why you can find negative values associated with magnitude.
 
 ###UCI HAR Dataset License
 
@@ -58,13 +58,13 @@ The naming convention used for the variables, that are not one of the three iden
 
 * **'Mag'** indicates that the original value was a magnituded caluculated using the Euclidean norm; please recall that all original values were normalized and bounded between [-1,1] and that is why you will find negative values for averages involving magnitude.
 
-* **'meanFreq'** mean that the original data was a weighted average of the frequency components to obtain a mean frequency
+* **'meanFreq'** indicates that the original data was a weighted average of the frequency components to obtain a mean frequency
 
 *  **'angle'** denotes that the original data was an angle between two vectors
 
 *  **'XYZ'** relates to direction being X, Y, or Z
 
-*  **NOTE:** Some variables are still undefined, but included anyway, like variables with 'BodyBody' names, by virtue of involving mean or standard deviation values;it is recommended that you contact the authors of the original data set to find aditional information regarding these: <activityrecognition@smartlab.ws>
+*  **NOTE:** Some variables are still undefined, but included anyway, like variables with 'BodyBody' names, by virtue of involving mean or standard deviation values;it is recommended that you contact the authors of the original data set to find additional information regarding these: <activityrecognition@smartlab.ws>
 
 A List of Column Names : The Variables
 =============
@@ -398,13 +398,13 @@ The following is a list of the variables contained in the tidy data set, in the 
   The average of the angle between two vectors; the vectors involved are the mean angular jerk, in the time domain, and mean gravity.
 
 87. ###Avg_of_angle_X.gravityMean 
-  The average of the angle between two vectors; the vectors involved are the "X direction vector" and the mean gravity vectory. Please contact the authors of the original data set, for further detail. I am not sure what X vector is involved, the X from the accelerometer or the gyroscope:
+  The average of the angle between two vectors; the vectors involved are the "X direction vector" and the mean gravity vectory. Please contact the authors of the original data set, for further details:
 <activityrecognition@smartlab.ws>
 
 88. ###Avg_of_angle_Y.gravityMean
-  The average of the angle between two vectors; the vectors involved are the "Y direction vector" and the mean gravity vectory. Please contact the authors of the original data set, for further detail. I am not sure what Y vector is involved, the Y from the accelerometer or the gyroscope:
+  The average of the angle between two vectors; the vectors involved are the "Y direction vector" and the mean gravity vectory. Please contact the authors of the original data set, for further details:
 <activityrecognition@smartlab.ws>
 
 89. ###Avg_of_angle_Z.gravityMean 
-  The average of the angle between two vectors; the vectors involved are the "Z direction vector" and the mean gravity vectory. Please contact the authors of the original data set, for further detail. I am not sure what Z vector is involved, the Z from the accelerometer or the gyroscope:
+  The average of the angle between two vectors; the vectors involved are the "Z direction vector" and the mean gravity vectory. Please contact the authors of the original data set, for further details:
 <activityrecognition@smartlab.ws>
